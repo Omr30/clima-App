@@ -17,8 +17,8 @@ class Busquedas {
     get paramsOpenWeather() {
         return {
             'appid': process.env.OPENWEATHER_KEY,
-            'units': process.env.UNITS,
-            'lang': process.env.LANG
+            'units': 'metric',
+            'lang': 'es'
         }
     }
 
